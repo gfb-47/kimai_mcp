@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
-__version__ = "2.8.0"
+from kimai_mcp import __version__
 
 # Load environment variables from .env file if it exists
 try:
