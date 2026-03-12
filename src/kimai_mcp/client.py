@@ -57,7 +57,8 @@ class KimaiClient:
             headers={
                 "Authorization": f"Bearer {api_token}",
                 "Content-Type": "application/json",
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "Cookie": "redirected=true"
             },
             timeout=timeout,
             verify=ssl_verify
